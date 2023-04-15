@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0;
+    /* boshlang'ich shartlar */
+}
+body {
+    min-height: 100vh;
+    /* uzunligi 100 vh */
+    font-family: Outrif , sans-serif;
+    background-color: hsl(212,45%,89%);
+    /* orqa fon rangi  */
+}
+body {
+    display: block;
+}
+.div {
+    margin: 180px auto;
+    /* tomonlardan uzoqligi */
+    width: 335px;
+    /* uzunligi */
+    height: 500px;
+    /* balandligi */
+    background-color: hsl(0, 0%, 100%);
+    /* orqa fon rangi */
+    text-align: center;
+    /* bu orqali divdagi barcha narsalar markazga keladi */
+    border-radius: 15px;
+    /* tortburchak qirrasini biroz aylanasimon qilish uchun */
+    box-shadow: 5px 5px 15px hsl(220deg, 15%, 55%);
+    /* soya chiqarib beradi */
+    
+}
+div {
+    display: block;
+}
+img {
+    border-radius: 10px;
+    /* rasm qirralarini birox aylanasimon shaklga keltirib beradi */
+    margin-top: 12px;
+    /* rasm bilan div ramkasining orasidagi joy tepa tomondan */
+    margin-bottom: 12px;
+    /* rasm bilan div ramkasining orasidagi joy past tomondan */
+}
+h1 {
+    font-weight:  700;
+    /* h1 farmatdagi matnning uzunligi */
+    font-size: 22px;
+    /* osha matnning olchami */
+    margin: 8px 25px; 
+    /* yozuvning tepa past va ong chap tomondan chegarasini korsatadi */
+}
+h1 {
+    display: block
+    font-size: 2cm;
+    margin-block-start: 0.67cm;
+    margin-block-end: 0.67cm;
+    margin-inline-start :0px;
+    margin-inline-end :0px;
+    font-weight:bold;
+}    
